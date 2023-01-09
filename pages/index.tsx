@@ -1,9 +1,7 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {Grid, Card, CardContent, CardMedia, Typography, Avatar} from "@mui/material";
-import { createStyles, Paper, Text, Title, useMantineTheme } from '@mantine/core';
-import profilePic from '../public/91492770.jpg';
+import {Paper, Text } from '@mantine/core';
 import { Carousel } from '@mantine/carousel';
 import useSWR from 'swr';
 import {useMediaQuery} from "@mantine/hooks";
@@ -17,35 +15,6 @@ import { useRouter } from "next/router";
 
 import ImageFader from '../comps/ImageFader';
 
-
-const useStyles = createStyles((theme) => ({
-    card: {
-        height: 700,
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-between',
-        alignItems: 'flex-start',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-    },
-
-    title: {
-        fontFamily: `Greycliff CF, ${theme.fontFamily}`,
-        fontWeight: 900,
-        color: theme.white,
-        lineHeight: 1.2,
-        fontSize: 32,
-        marginTop: theme.spacing.xs,
-    },
-
-    description: {
-        color: theme.white,
-        opacity: .7,
-        fontWeight: 700,
-        textTransform: 'uppercase',
-        fontSize: 18,
-    },
-}));
 
 
 
