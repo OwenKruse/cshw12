@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/cshw1.iml" filepath="$PROJECT_DIR$/.idea/cshw1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nextjsflightfinder/.idea/nextjsflightfinder.iml" filepath="$PROJECT_DIR$/../nextjsflightfinder/.idea/nextjsflightfinder.iml" />
     </modules>
   </component>
 </project>
